@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="PCF" constructor="AdvancedMultiSelect" version="0.0.6" display-name-key="Advanced Multi Select" description-key="Allows a multi-select optionset to be displayed as checkboxes or toggles." control-type="standard" preview-image="img/checklist.svg">
+    <property name="controlProps" display-name-key="Control Properties" description-key="Properties of the control passed to the PCF control" of-type="MultiSelectOptionSet" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/AdvancedMultiSelect.css" order="1" />
+      <resx path="strings/AdvancedMultiSelect.1033.resx" version="1.0.0" />
+    </resources>
+  </control>
+</manifest>
